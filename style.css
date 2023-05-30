@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Pacifico&family=Roboto+Mono:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Todo_heading {
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-weight: bold;
+    font-size: 36px !important;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.Todo_list {
+    font-family: 'Anuphan', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Roboto Mono', monospace; */
+    font-weight: bold;
+    font-size: 36px !important;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    color: #1e7e71a3;
+    font-style: italic;
+}
+
+.Notes {
+    font-family: 'Anuphan', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Roboto Mono', monospace; */
+    font-weight: bold;
+    font-size: 36px !important;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    color: #325853a3;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.bg_color {
+    background-color: #5a8d86a3;
+}
+
+.inputarea {
+    height: 70px;
+    border: 0px solid black;
+    outline: 0px;
+    padding: 5px 10px;
+    box-sizing: content-box;
+    box-shadow: -5px 8px 8px #201a1a7a;
+    font-family: 'Roboto Mono', monospace;
+    ;
+}
+
+.list {
+    margin-bottom: 10px;
+    width: 30%;
+    padding: 5px 10px;
+    box-shadow: -5px 8px 8px #201a1a7a;
+    border: 2px solid snow;
+    margin-right: 10px;
+}
+
+.removebtn {
+    height: 40px;
+    width: 100px;
+    background-color: darkcyan;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+}
+.editbtn{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(183 203 124 / 87%);
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    margin-left: 5px;   
+}
+@media screen and (max-width:992px){
+    .inputarea{
+        width: 100% !important;
+    }
+    .list {
+        margin-bottom: 20px;
+        width: 48%;
+        padding: 5px 10px;
+        box-shadow: -5px 8px 8px #201a1a7a;
+        border: 2px solid snow;
+        margin-right: 10px;
+    }
+    
+    .removebtn {
+        height: 40px;
+        width: 100px;
+        background-color: darkcyan;
+        color: white;
+        border: 0px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+    .editbtn{
+        height: 40px;
+        width: 100px;
+        background-color: rgb(183 203 124 / 87%);
+        color: white;
+        border: 0px;
+        border-radius: 8px; 
+    }
+}
+@media screen and (max-width:767px){
+    .list {
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 5px 10px;
+        box-shadow: -5px 8px 8px #201a1a7a;
+        border: 2px solid snow;
+        margin-right: 0px;
+    }
+    
+    .removebtn {
+        height: 40px;
+        width: 100px;
+        background-color: darkcyan;
+        color: white;
+        border: 0px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+    .editbtn{
+        height: 40px;
+        width: 100px;
+        background-color: rgb(183 203 124 / 87%);
+        color: white;
+        border: 0px;
+        border-radius: 8px; 
+    }
+}
+@media screen and (max-width:576px){
+    .inputarea{
+        width: 85% !important;
+    }
+    
+}
+@media screen and (max-width:365px){
+    .Todo_list{
+        font-size: 30px !important;
+    }
+    
+}
+@media screen and (max-width:315px){
+    .Todo_list{
+        font-size: 25px !important;
+    }
+    
+}
+@media screen and (max-width:242px){
+    .addNotes{
+        margin-bottom: 5px !important;
+    }
+}
