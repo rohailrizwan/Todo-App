@@ -80,7 +80,16 @@
     color: white;
     border: 0px;
     border-radius: 8px;
-    margin-left: 5px;   
+    margin-right: 5px;   
+}
+.savebtn{
+    height: 40px;
+    width: 100px;
+    background-color: rgba(24, 228, 228, 0.87);
+    color: white;
+    border: 0px;
+    border-radius: 8px; 
+    margin-left: 5px;
 }
 @media screen and (max-width:992px){
     .inputarea{
@@ -140,6 +149,7 @@
         border: 0px;
         border-radius: 8px; 
     }
+    
 }
 @media screen and (max-width:576px){
     .inputarea{
